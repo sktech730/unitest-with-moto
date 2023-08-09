@@ -1,14 +1,9 @@
 import boto3
-import Logger
-import os
-import json
-import time
-import datetime
-
+from logging import getLogger, INFO
 
 s3 = boto3.client('s3')
-logger = Logger.get_logger()
-logger.setLevel(Logger.INFO)
+logger = getLogger(__name__)
+logger.setLevel(INFO)
 # s3-get-object
 def get_object_from_bucket(bucket_name,object_name):
     try:
