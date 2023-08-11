@@ -6,6 +6,7 @@ omit=
     __*.py
 
 [report]
+fail_under = 80
 exclude_also =
     def __repr__
     if self.debug:
