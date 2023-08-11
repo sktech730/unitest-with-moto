@@ -1,6 +1,6 @@
 # Unit test the boto AWS API calls 
 
-## Using moto and Pytest framework we are unit testing the Python code which intercats with AWS services using Boto 3.
+## Using moto and Pytest framework unit testing the Python code which intercats with AWS services using Boto 3.
 
 ### [Moto](http://docs.getmoto.org/en/latest/index.html)
 
