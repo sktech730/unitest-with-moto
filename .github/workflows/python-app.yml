@@ -20,6 +20,11 @@ jobs:
     - name: Install dependencies
       run: make install-requirements
     - name: Run tests
+      env:
+        AWS_ACCESS_KEY_ID: "dummy"
+        AWS_SECRET_ACCESS_KEY: "dummy"
+        AWS_DEFAULT_REGION: "us-east-1"
+
       run: make tests
 #    - name: Lint with flake8
 #      run: |
