@@ -10,10 +10,11 @@ install-requirements:
 	pip install --upgrade -r requirements-test.txt
 
 tests: clean
-	coverage run -m pytest  && coverage report
+	coverage run -m pytest  && coverage html
 
 
 
 clean:
 	rm -rf .pytest_cache/
 	rm -f .coverage
+	rm -rf htmlcov

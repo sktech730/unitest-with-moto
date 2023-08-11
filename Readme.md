@@ -1,3 +1,6 @@
+
+<img src="{![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)}" />
+
 # Unit test the boto AWS API calls 
 
 ## Using moto and Pytest framework unit testing the Python code which intercats with AWS services using Boto 3.
@@ -18,6 +21,8 @@
 
 #### [ACT](https://github.com/nektos/act)
 #### [Python 3.9](https://www.python.org/downloads/release/python-390/) or greater 
+
+
 
 
 ### Usage:
