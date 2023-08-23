@@ -1,5 +1,4 @@
-
-<img src="{![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)}" />
+![app workflow](https://github.com/sktech730/unitest-with-moto/actions/workflows/python-app.yml/badge.svg)
 
 # Unit test the boto AWS API calls 
 
